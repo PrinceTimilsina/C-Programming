@@ -2,8 +2,8 @@
 #include<string.h>
 int main()
 {
-	char nam[]="Rishabh";
-	int len =strlen(nam);
+	char name[]="Rishabh";
+	int len =strlen(name);
 	printf("%d",len);
 	return 0;
 }
