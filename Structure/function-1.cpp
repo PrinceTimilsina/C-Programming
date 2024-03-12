@@ -6,9 +6,11 @@ struct rectangle{
 float calculateArea(struct rectangle rect){
     return rect.length*rect.width;
 }
+
 float calculatePerimeter(struct rectangle rect){
     return 2*(rect.length + rect.width);
 }
+
  int main()
  {
      struct rectangle rect;
