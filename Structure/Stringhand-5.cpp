@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-	char a[]="Rachin";
+	char a[]="Prince";
 	strrev(a);
 	printf("%s",a);
 	return 0;
