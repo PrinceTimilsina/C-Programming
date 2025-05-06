@@ -2,7 +2,7 @@
 int main()
 {
 	FILE *fp;
-	char text[100];
+	char text[100]; 
 	
 	//text is that variable where the value that has been written is stored.
 	//Open file for writing 
