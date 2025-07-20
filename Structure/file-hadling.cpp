@@ -1,3 +1,4 @@
+//file-handling-example program
 #include<stdio.h>
 int main()
 {
