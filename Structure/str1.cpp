@@ -5,7 +5,7 @@
   	char publisher[20];
   	float price;
   };
-  int main()
+  int main()          
   {
   	struct student stud;
   	printf("Enter the title");

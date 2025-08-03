@@ -10,10 +10,10 @@ int main()
 	//syntax of file handling ; fopen(filename, mode);
 	
 	fp = fopen("example.txt", "w");
-	if (fp==NULL)
+	if (fp==NULL)   
 	{
 		printf("Error opening file!\n");
-		return 1;
+		return 1;  
 	}
 	
 	//Write to file
@@ -25,7 +25,7 @@ int main()
 	
 	fclose(fp);
 	
-	//open file for reading
+	//open file for reading  
 	
 	fp = fopen("example.txt", "r");
 	if (fp== NULL){
