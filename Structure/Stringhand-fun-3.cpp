@@ -7,7 +7,7 @@
   	strcpy(s2,"Prince");
 //  	strcpy(s2,s1);
   	
-  	printf("%s",s2);
+  	printf("%s",s2); 
   	
   	return 0;  
   }
