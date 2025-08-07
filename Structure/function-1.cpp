@@ -4,7 +4,7 @@ struct rectangle{
     float length,width;
 };
 float calculateArea(struct rectangle rect){
-    return rect.length*rect.width;
+    return rect.length*rect.width;  
 }
 
 float calculatePerimeter(struct rectangle rect){
