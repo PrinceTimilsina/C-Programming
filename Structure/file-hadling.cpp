@@ -9,7 +9,7 @@ int main()
 	//Open file for writing 
 	//syntax of file handling ; fopen(filename, mode);
 	
-	fp = fopen("example.txt", "w");
+	fp = fopen("example.txt", "w");  
 	if (fp==NULL)   
 	{
 		printf("Error opening file!\n");
@@ -42,5 +42,6 @@ int main()
 	
 	fclose(fp);
 	
-	return 0;
+	return 0;  
 }
+ 
