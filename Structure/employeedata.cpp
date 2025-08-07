@@ -20,7 +20,7 @@ int main(){
 		printf("Enter %d employee last name:-",i+1);
 		scanf("%s", emp[i]->l_name);
 		printf("Enter %d employee salary:-",i+1);
-		scanf("%f", emp[i]->salary); 
+		scanf("%f", emp[i]->salary);   
 	}
 	for(int i=0;i<=7;i++){
 		printf("Employee id is %d:-",emp[i]->employee_id);
