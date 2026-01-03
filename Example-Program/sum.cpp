@@ -1,9 +1,21 @@
-#include<stdio.h>
-int main(){
-	int a,b,sum;
-	printf("Enter any two numbers");
-	scanf("%d %d",&a,&b);
-	sum=a+b;
-	printf("Hence the sum of two numbers is %d",sum);
+#include <stdio.h>
+
+int sumOfDigits(int num) {
+    int sum = 0;
+    while (num != 0) {
+        sum += num % 10;
+        num = 10;
+    }
+    return sum;
+}
+
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    printf("Sum of digits of %d is %d.\n", num, sumOfDigits(num));
+
     return 0;
 }
+
