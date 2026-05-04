@@ -1,26 +1,25 @@
 #include<stdio.h>
-#include<math.h>
-     int main(){
-     	int i,n,nn,r,s=0;
+#include<math.h> //for using func like pow()
+     
+  int main()
+  {
+     	int i,n,temp,r,s=0;
      	printf("Enter a number");
 		 scanf("%d",&n);
-		 nn=n;
-		 for(i=1;i<=1000;i++){
-		 
-     	while(n!=0){
+		 temp=n;
+		 for(i=1;i<=1000;i++)
+		 {
+		  while(n!=0){
      		r=n%10;
      		s=s+pow(r,3);
-			 n=n/10;
+			n=n/10;
 		 }
 		 }
-        if('nn'==s){
-        	printf("%d is armostrong number",'nn');
+        if(temp==s){
+        	printf("%d is armostrong number",temp);
 		}
 		else{
-			printf("%d is not  armostrong  number",'nn');
+			printf("%d is not  armostrong  number",temp);
 		}
-		  
-
-		 
-		  return 0;
+		 return 0;
 	 }
