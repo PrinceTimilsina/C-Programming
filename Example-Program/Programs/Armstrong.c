@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<math.h> //for using func like pow()
-     
   int main()
   {
      	int i,n,temp,r,s=0;
@@ -22,4 +21,4 @@
 			printf("%d is not  armostrong  number",temp);
 		}
 		 return 0;
-	 }
+ }

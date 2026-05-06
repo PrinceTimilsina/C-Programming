@@ -1,4 +1,4 @@
-//Using-if-elseif-else for displaying either the given number is positive,negative or zero,it's just basic or. example program of if else if else
+//if-else laddar
 #include<stdio.h>
 int main()
 {
