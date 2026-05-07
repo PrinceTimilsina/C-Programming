@@ -1,5 +1,6 @@
 #include <stdio.h>
-int factorial(int num) {
+int factorial(int num)
+ {
     if (num == 0 || num == 1)
         return 1;
     else
@@ -12,7 +13,6 @@ int main() {
     scanf("%d", &num);
     result = factorial(num);
     printf("Factorial of %d = %d\n", num, result);
-
     return 0;
 }
 
