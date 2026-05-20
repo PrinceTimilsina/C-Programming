@@ -1,0 +1,95 @@
+Array Midmap
+When I started learning arrays, I realized it’s not just about storing numbers, but about how we organize and manipulate data using logic. This midmap is basically my step-by-step practice path from simple arrays to matrix operations.
+1. Basic 1D Array
+
+An array is a collection of similar type of elements stored in continuous memory locations. Instead of creating many variables, we use one array to store multiple values.
+
+In the beginning, I practiced storing 10 integers in an array and displaying them using a loop. This helped me understand indexing and how loops and arrays work together.
+
+Practice ideas:
+
+a. Store 10 integers and display them
+b. Find sum and average
+c. Find largest and smallest number
+
+2. Array Operations (1D)
+
+Once basics were clear, I moved to simple operations. These help build logical thinking using arrays. Here, we start treating arrays like real data structures we can modify and analyze.
+
+Practice ideas:
+
+a. Search an element (linear search)
+b. Count even and odd numbers
+c. Reverse an array
+d. Copy elements from one array to another
+
+Question to think:
+Why do we always start array indexing from 0?
+
+3. Introduction to 2D Array (Matrix)
+
+A 2D array is like a table made of rows and columns. It is used to represent matrices in programming.
+
+This step helped me connect programming with school mathematics.
+
+I practiced taking input and displaying a 3×3 matrix using nested loops.
+
+Practice ideas:
+
+a. Input a 3×3 matrix
+b. Display matrix in proper format
+c. Store and print elements using nested loops
+
+Question to think:
+How is a 2D array stored in memory internally?
+
+4. Matrix Addition and Subtraction
+
+Matrix addition and subtraction are element-wise operations, meaning we operate on same position elements of two matrices.
+
+This helped me understand nested loops more clearly and how two arrays can interact together.
+
+Practice ideas:
+
+a. Add two 3×3 matrices
+b. Subtract two 3×3 matrices
+
+Question to think:
+Why must both matrices have the same dimensions for addition and subtraction?
+
+5. Matrix Multiplication
+
+Matrix multiplication is not element-wise. Each element is calculated by multiplying rows with columns and adding the results.
+
+This was one of the most important steps in understanding nested loop logic.
+
+Practice ideas:
+
+a. Multiply two 3×3 matrices
+b. Understand row × column calculation step by step
+
+Question to think:
+Why is matrix multiplication not commutative (A × B ≠ B × A)?
+
+6. Transpose of Matrix
+
+Transpose means converting rows into columns and columns into rows.
+
+This concept helped me understand data transformation in a very simple way.
+
+Practice ideas:
+
+a. Find transpose of a 3×3 matrix
+b. Try in-place transpose for square matrices
+
+Question to think:
+What changes when we transpose a non-square matrix?
+
+🧠 Final Flow of Learning
+
+a. 1D Array basics
+b. Array operations
+c. 2D array input/output
+d. Matrix addition and subtraction
+e. Matrix multiplication
+f. Transpose of matrix
