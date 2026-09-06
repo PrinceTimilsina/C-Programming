@@ -12,7 +12,8 @@ void sumofN(){
     int n,i,sum=0;
     printf("Enter the nth Natural number:");
     scanf("%d",&n);
-    for(i=1;i<=n;i++){
+    for(i=1;i<=n;i++)
+    {
        sum = sum + i;
     }
     printf("%d is the sum of N natural number",sum);
