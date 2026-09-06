@@ -15,9 +15,9 @@ float calculatePerimeter(struct rectangle rect){
  {
      struct rectangle rect;
      printf("Enter length of rectangle: ");
-     scanf("%f \n ", &rect.length);
+     scanf("%f", &rect.length);
      printf("Enter width of rectangle: ");
-     scanf("%f \n",&rect.width);
+     scanf("%f",&rect.width);
      
      float area = calculateArea(rect);
      float perimeter = calculatePerimeter(rect);
