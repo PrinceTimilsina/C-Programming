@@ -5,11 +5,13 @@ void square(int n);
 
 int main()
 {
-    // take input
-    // call square() and pass n
+     int n;
+     printf("Enter a number to find its square: ");
+     scanf("%d",&n);
+     square(n);
 }
 
 void square(int n)
 {
-    // calculate and print square
+   printf("square is %d",n*n);
 }
