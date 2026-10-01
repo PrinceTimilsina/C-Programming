@@ -1,11 +1,13 @@
 //ABOUT:
 #include <stdio.h>
+
 struct Student
 {
     char name[20];
     int age;
     float marks;
 };
+
 int main() {
     struct Student s1;
 
