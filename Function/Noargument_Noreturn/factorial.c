@@ -6,7 +6,6 @@ int main(){
    factorial();
    return 0;
 }
-
 int factorial(){
     int n,f=1;
    printf("Enter a number to find its factorial: ");
