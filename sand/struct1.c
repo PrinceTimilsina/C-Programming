@@ -20,35 +20,3 @@ int main(){
   }
   return 0;
 }
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Number Checking</title>
-</head>
-<body>
-    <h2>Check a Number</h2>
-
-    <input type="number" id="num" placeholder="Enter a number">
-    <button onclick="checkNumber()">Check</button>
-
-    <p id="result"></p>
-
-    <script>
-        function checkNumber() {
-            let n = Number(document.getElementById("num").value);
-
-            if (n > 0) {
-                document.getElementById("result").innerHTML =
-                    "The number is positive.";
-            } else if (n < 0) {
-                document.getElementById("result").innerHTML =
-                    "The number is negative.";
-            } else {
-                document.getElementById("result").innerHTML =
-                    "The number is zero.";
-            }
-        }
-    </script>
-</body>
-</html>
